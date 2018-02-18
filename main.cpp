@@ -22,9 +22,9 @@ int main() {
 	srand(time(NULL));
 	for(int i = 0;i<=100000;){
 		cout<<i<<endl;
-		agent.move();
-//		DrwaWorld monitor(&w,&agent,1);
-//		monitor.execute();
+		//agent.move();
+		DrwaWorld monitor(&w,&agent,1);
+		monitor.execute();
 		if(w.getState(w.getAgentPos().x,w.getAgentPos().y).getType()==goal||w.getState(w.getAgentPos().x,w.getAgentPos().y).getType()==obstacle){
 			w.reset(true);
 			i++;
@@ -43,6 +43,7 @@ int main() {
 
 
 
+	
 
 	return 0;
 }
