@@ -26,4 +26,4 @@ World.o: World.cpp
 		$(CC) $(CFLAGS) World.cpp $(LIBS)
 
 clean:
-	 rm *o kmeans
+	 rm *o rl
