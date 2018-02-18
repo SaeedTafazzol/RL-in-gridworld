@@ -17,6 +17,14 @@ make
 
 It will learn the optimal policy after too many iterations
 
+N stands for north
+W stands for west
+S stands for south
+E stands for east
+O stands for unknown
+
+and the point below the policy shows the relative score for the state
+
 ## Before:
 ![before](https://github.com/SaeedTafazzol/RL-in-gridworld/blob/master/pictures/before.png) 
 ## After:
