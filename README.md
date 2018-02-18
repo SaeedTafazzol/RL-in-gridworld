@@ -17,4 +17,7 @@ make
 
 It will learn the optimal policy after too many iterations
 
-![before](https://github.com/SaeedTafazzol/RL-in-gridworld/blob/master/pictures/before.png) ![after](https://github.com/SaeedTafazzol/RL-in-gridworld/blob/master/pictures/after.png)
+#Before
+![before](https://github.com/SaeedTafazzol/RL-in-gridworld/blob/master/pictures/before.png) 
+#After:
+![after](https://github.com/SaeedTafazzol/RL-in-gridworld/blob/master/pictures/after.png)
